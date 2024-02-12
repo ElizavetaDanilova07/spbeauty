@@ -11,21 +11,16 @@ body {
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
-  line-height: 18px;
+  line-height: 24px;
 }
 
 .text-md {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-}
-
-.text-rg-bd {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
+  
 }
 
 span,
@@ -35,8 +30,9 @@ div,
 input,
 .text-rg {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
+
 }
 
 .caption {
@@ -46,3 +42,9 @@ input,
   color: rgb(148, 163, 184);
 }
 
+.border1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(100, 116, 139, 0.12);
+  border-radius: 8px;
+
+}

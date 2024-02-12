@@ -1,22 +1,26 @@
 import PrimaryButton from "../../../../../Components/PrimaryButton";
 import SecondaryButton from "../../../../../Components/SecondaryButton";
 import ListElement from "./ListElement";
+
+
 function Addresses() {
     return (
-        <div class='container col'>
-            <div class="border">
-<style>
-    border: 2px solid;
-</style>
-        <div class="d-flex justify-content-between p-4">
-            <div className='title'>Адреса заведений</div></div>
-            <div className='d-inline-flex flex-column gap-4 p-4'>
-                <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
-                <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement></div>
-                <div className='d-inline-flex flex-column gap-3 p-4'>
+        <div className='container col p-2 justify-content-between'>
+            <div className="border1">    
+        <div className="d-flex row ps-4 pe-4 pt-4 gap-4">
+            <div className='title'> Адреса заведений </div>
+                <div className='d-inline-flex flex-column'>
+                <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement></div>
+                <div className='d-inline-flex flex-column'>
+                <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement></div></div>
+                
+                <div className='d-inline-flex flex-column p-4'>
                 <SecondaryButton>Добавить филиал</SecondaryButton></div>
+                
                 </div>
                 </div>
+                
+                        
     );
 }
 
