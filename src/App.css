@@ -1,1 +1,10 @@
-/* Временные стили добавлять здесь */
+.border1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(100, 116, 139, 0.12);
+    border-radius: 8px;
+  }
+  .grey{
+    color: rgb(148, 163, 184)
+  }
+
+  
